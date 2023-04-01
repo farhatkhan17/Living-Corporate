@@ -10,6 +10,7 @@ var nav3bt1one = document.querySelector("#nav3btn1one")
 var nav3bt2two = document.querySelector("#nav3btn2two")
 var nav2 = document.querySelector("#nav2")
 var nav1svg = document.querySelector("#nav1 svg")
+var nav1svg2 = document.querySelector("#svg2")
 
 var flag = 0
 
@@ -26,6 +27,7 @@ menu.addEventListener("click",function(){
         line3.style.backgroundColor = "white" 
 
         nav1svg.style.color = "white"
+        nav1svg2.style.color = "white"
 
         nav2i.style.color = "white"
         nav3btn1.style.backgroundColor = "black"
@@ -36,6 +38,7 @@ menu.addEventListener("click",function(){
         nav3btn1one.style.borderColor = "white"
         nav2.style.borderRightColor = "white"
         nav1svg.style.filter = "invert(10)"
+        nav1svg2.style.filter = "invert(10)"
         nav1svg.style.transition = "all ease-out 0.5s"
         flag = 1
     }else{
@@ -48,6 +51,7 @@ menu.addEventListener("click",function(){
         line1.style.backgroundColor = "black" 
         line3.style.backgroundColor = "black" 
         nav1svg.style.filter = "invert(0)"
+        nav1svg2.style.filter = "invert(0)"
         nav1svg.style.transition = "all ease-out 0.5s"
         nav2i.style.color = "black"
         nav3btn1.style.backgroundColor = "#FEF9F3"
